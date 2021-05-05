@@ -17,16 +17,12 @@ namespace BatchApplication
 
 	public class User
 	{
-		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
-		public string change_action { get; set; }
 		public string id { get; set; }
 		public string name { get; set; }
 	}
 
 	public class Playlist
 	{
-		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
-		public string change_action { get; set; }
 		public string id { get; set; }
 		public string user_id { get; set; }
 		
@@ -35,8 +31,6 @@ namespace BatchApplication
 
 	public class Song
 	{
-		[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingDefault)]
-		public string change_action { get; set; }
 		public string id { get; set; }
 		public string artist { get; set; }
 		public string title { get; set; }

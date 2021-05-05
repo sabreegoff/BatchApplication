@@ -1,0 +1,86 @@
+{
+  "changes": [
+    {
+      "user_id": 1,
+      "change_action": "update",
+      "user": {
+        "id": "3",
+        "name": "Albin Jayeeeee"
+      }
+    },
+    {
+      "user_id": 1,
+      "change_action": "add",
+      "user": {
+        "name": "SaBree Goff"
+      }
+    },
+    {
+      "user_id": 1,
+      "change_action": "delete",
+      "user": {
+        "id": "2",
+        "name": "Dipika Crescentia"
+      }
+    },
+    {
+      "user_id": 1,
+      "change_action": "update",
+      "playlist": {
+        "id": "1",
+        "user_id": "2",
+        "song_ids": [
+          "8",
+          "32",
+          "31"
+        ]
+      }
+
+    },
+    {
+      "user_id": 1,
+      "change_action": "delete",
+      "playlist": {
+        "id": "2"
+      }
+    },
+    {
+      "user_id": 1,
+      "change_action": "add",
+      "playlist": {
+        "user_id": "5",
+        "song_ids": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "user_id": 1,
+      "change_action": "add",
+      "song": {
+        "artist": "Some artist",
+        "title": "Some title"
+      }
+    },
+    {
+      "user_id": 1,
+      "change_action": "delete",
+      "song": {
+        "id": "2"
+      }
+    },
+    {
+      "user_id": 1,
+      "change_action": "update",
+      "song": {
+        "id": "3",
+        "artist": "The Weeknd",
+        "title": "Pray For Meeeee"
+      }
+    }
+  ]
+}
