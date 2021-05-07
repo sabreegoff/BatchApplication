@@ -18,12 +18,7 @@ namespace BatchApplication
 			{
 				providedMixtape = "https://gist.githubusercontent.com/jmodjeska/0679cf6cd670f76f07f1874ce00daaeb/raw/a4ac53fa86452ac26d706df2e851fb7d02697b4b/mixtape-data.json";
 			}
-
-			if (string.IsNullOrWhiteSpace(changeList))
-			{
-				providedMixtape = "ChangeList.json";
-			}
-
+			
 			try
 			{
 				Mixtape mixtape = Mixtape.Read(providedMixtape);
