@@ -21,7 +21,7 @@ namespace BatchApplication
 
 			if (string.IsNullOrWhiteSpace(changeList))
 			{
-				providedMixtape = "C:\\Users\\SGoff\\source\\repos\\BatchApplication\\BatchApplication\\ChangeList.json";
+				providedMixtape = "ChangeList.json";
 			}
 
 			try
@@ -31,6 +31,9 @@ namespace BatchApplication
 				SerializeJsonToFile(mixtapeWithChages);
 
 				Console.WriteLine(File.ReadAllText("Output.json"));
+
+				Console.WriteLine("Press any key to close");
+				Console.ReadKey(false);
 			}
 			catch (Exception ex)
 			{
